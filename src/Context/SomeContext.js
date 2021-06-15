@@ -11,7 +11,6 @@ const ContextProvider = (props) => {
 
   return (
     <SomeContext.Provider value={{ counter, updateCounter }}>
-      {console.log("children", props.children)}
       {props.children}
     </SomeContext.Provider>
   );

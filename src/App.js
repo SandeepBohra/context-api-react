@@ -1,6 +1,6 @@
 import "./styles.css";
 
-import ContextProvider, { SomeContext } from "./Context";
+import ContextProvider, { SomeContext } from "./Context/SomeContext";
 import { useContext } from "react";
 
 export default function App() {
